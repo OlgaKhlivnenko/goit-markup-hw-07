@@ -1,4 +1,4 @@
-:root {
+ /* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --icon-color: #afb1b8;
@@ -39,7 +39,7 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
-}
+} */
 
 /* цвет основного текста #757575 */
 /* цвет второстепенного текста #212121 */
@@ -49,7 +49,7 @@ body {
 /* цвет фона #E5E5E5 */
 
 /* Stiles for index.html */
-.header {
+/* .header {
   background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
 }
@@ -61,8 +61,8 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.logo {
+} */
+/* .logo {
   padding: 24px 0;
   color: var(--logo-color);
   text-decoration: none;
@@ -78,9 +78,9 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
+} */
 /* Site nav */
-.header-nav {
+/* .header-nav {
   display: flex;
   align-items: center;
 }
@@ -175,10 +175,10 @@ body {
 
 .auth__icon {
   margin-right: 10px;
-}
+} */
 
 /* Section oder */
-.oder {
+/* .oder {
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -225,9 +225,9 @@ body {
 .oder__btn:hover,
 .oder__btn:focus {
   background-color: var(--focus-btn);
-}
+} */
 /* Site section */
-.features__title {
+/* .features__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -265,7 +265,7 @@ body {
   padding-bottom: 94px;
 }
 /* Section advant */
-.advant,
+/* .advant,
 .features {
   background-color: var(--primary-white-color);
 }
@@ -315,9 +315,9 @@ body {
   padding: 0;
   margin: 0;
   border: none;
-}
+} */ 
 /* Section team */
-.team {
+/* .team {
   background-color: var(--bacground-fon-color);
 }
 .card-set__content {
@@ -396,9 +396,9 @@ body {
 .social-block__link:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
-}
+} */
 
-.works__title,
+/* .works__title,
 .advant__title {
   position: absolute;
   color: transparent;
@@ -449,9 +449,9 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
   fill: var(--accent-color);
-}
+} */
 /* Footer */
-.footer {
+/* .footer {
   display: flex;
   width: 100%;
   padding-top: 60px;
@@ -496,8 +496,8 @@ body {
 .adress__link:hover,
 .adress__link:focus {
   color: var(--accent-color);
-}
-.logo-footer {
+} */
+/* .logo-footer {
   display: block;
   padding: 0;
   margin-bottom: 20px;
@@ -507,8 +507,8 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-.join {
+} */
+/* .join {
   margin-right: 70px;
 }
 .join__title,
@@ -605,9 +605,9 @@ body {
 }
 .subscribe__btn svg {
   margin-left: 10px;
-}
+} */
 /*modal window*/
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
@@ -817,9 +817,9 @@ input:-webkit-autofill:active {
 .agree__link {
   color: var(--accent-color);
   padding-left: 5px;
-}
+} */
 /* Styles for portfolio.html */
-.filter__list,
+/* .filter__list,
 .exmp-list {
   list-style: none;
 }
@@ -870,8 +870,8 @@ input:-webkit-autofill:active {
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
-}
-.work__list {
+} */
+/* .work__list {
   padding: 0;
   margin: 0;
 
@@ -971,4 +971,4 @@ input:-webkit-autofill:active {
   line-height: 1.875;
 
   color: var(--primary-text-color);
-}
+} */

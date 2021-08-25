@@ -39,3 +39,16 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section__title{
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  @include text(700, 36px, 1.16, center);
+}
+.title--hidden {
+  position: absolute;
+  color: transparent;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+}

@@ -229,6 +229,7 @@ body {
 
 .logo__part {
   color: var(--accent-color);
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -265,6 +266,8 @@ body {
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -297,6 +300,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-right: calc(-1 * var(--card-set-gap));
+}
+
+.advant-content:last-child {
+  margin-right: 0;
 }
 
 .advant-content__plus {
@@ -790,9 +797,9 @@ input:-webkit-autofill:active {
   border-color: 2px solid var(--accent-color);
 }
 
-.agree__input:checked .agree__icon:hover {
+.agree__input:checked .agree__icon {
   background-color: var(--accent-color);
-  background-image: url(..../images/icon-check.svg);
+  background-image: url(./images/icon-check.svg);
   background-size: contain;
   border-color: var(--accent-color);
   background-origin: border-box;

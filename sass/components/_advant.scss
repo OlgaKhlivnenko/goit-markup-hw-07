@@ -5,9 +5,9 @@
   display: flex;
   @extend %list;
   margin-right: calc(-1 * var(--card-set-gap));
-  // &:last-child {
-  //   margin-right: 0;
-  // }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .advant-content__plus {

@@ -19,6 +19,8 @@
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.06em;
   @include text(900, 44px, 1.36, null);
 }
 .oder__btn {
@@ -27,12 +29,13 @@
   min-width: 200px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  
+
   @include text(700, 16px, 1.875, center);
 
   cursor: pointer;
   transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-&:hover, &:focus{
-  background-color: var(--focus-btn);
-}
+  &:hover,
+  &:focus {
+    background-color: var(--focus-btn);
+  }
 }

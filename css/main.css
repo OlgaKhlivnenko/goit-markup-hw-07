@@ -793,16 +793,16 @@ input:-webkit-autofill:active {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.agree__icon:hover {
-  border-color: 2px solid var(--accent-color);
-}
-
-.agree__input:checked .agree__icon {
+.agree__icon .agree__input:checked + {
   background-color: var(--accent-color);
   background-image: url(./images/icon-check.svg);
   background-size: contain;
   border-color: var(--accent-color);
   background-origin: border-box;
+}
+
+.agree__icon:hover {
+  border-color: 2px solid var(--accent-color);
 }
 
 .agree__input {

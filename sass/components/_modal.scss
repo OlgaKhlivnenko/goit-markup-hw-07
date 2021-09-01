@@ -78,8 +78,12 @@ input:-webkit-autofill:active {
 }
 .form__lable {
   position: absolute;
+  display: block;
   @include text(400, 12px, 1.166, null);
-  padding-bottom: 10px;
+  padding-bottom: 4px;
+  .form__field:focus-within & {
+    color: var(--accent-color);
+  }
 }
 .form__input {
   height: 40px;
@@ -156,6 +160,7 @@ input:-webkit-autofill:active {
 
 .agree {
   position: relative;
+  display: block;
   @include d-flex(flex, null, center);
   left: 16px;
   @include text(400, 14px, 1.714, null);
@@ -163,7 +168,7 @@ input:-webkit-autofill:active {
   cursor: pointer;
 }
 .agree__icon {
-  display: inline-block;
+  display: block;
   margin-right: 9px;
   width: 16px;
   height: 15px;
@@ -173,13 +178,13 @@ input:-webkit-autofill:active {
     border-color: 2px solid var(--accent-color);
   }
 }
-.agree__input:checked + .agree__icon{
-    background-image: url(./images/icon-check.svg);
-    background-size: contain;
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    background-origin: border-box;
-  }
+.agree__input:checked + .agree__icon {
+  background-image: url(./images/icon-check.svg);
+  background-size: contain;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-origin: border-box;
+}
 .agree__input {
   position: absolute;
   width: 1px;

@@ -55,6 +55,7 @@
     .work__item:hover &,
     .work__item:focus & {
       transform: translateY(0);
+      
       opacity: 1;
     }
   }
